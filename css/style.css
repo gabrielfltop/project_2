@@ -1,0 +1,167 @@
+body {
+	background-color: #F9F9F9;
+	font-family: 'Montserrat';
+}
+
+.cabecalhoPrincipal .promocao {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #181818;
+}
+
+.cabecalhoPrincipal .promocao h1{
+    color: #F9F9F9;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cabecalhoPrincipal .nomeDaLoja {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalhoPrincipal .nomeDaLoja h1{
+    color: #181818;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.cabecalhoPrincipal .bg .bannerImagem {
+    background-image: url("../img/banner.png");
+    background-size: cover;
+    height: 377px;
+    width: 100%;
+    opacity: 60%;
+}
+
+.cabecalhoPrincipal .bg {
+    background-color: #181818;
+    height: 377px;
+    width: 100%;
+}
+
+.cabecalhoPrincipal .bannerTexto h1 {
+    position: absolute;
+    left: 7%;
+    top: 248px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #F9F9F9;
+}
+
+.cabecalhoPrincipal .bannerTexto h2 {
+    position: absolute;
+    width: 460px;
+    left: 7%;
+    top: 306px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 35px;
+    color: #F9F9F9;
+}
+
+.corpoPrincipal .container {
+    margin: 50px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpoPrincipal .container .destaquesTexto {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.corpoPrincipal .container .destaquesTexto h1 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #181818
+}
+
+.corpoPrincipal .container .destaquesTexto h2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #474747;
+    text-align: center;
+}
+
+.corpoPrincipal .container .listaTenis {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    max-width: 1450px;
+}
+
+.corpoPrincipal .container .listaTenis .tenis {
+    background-color: #EBE9EA;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.rodapePrincipal {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.rodapePrincipal .aviso {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #181818;
+}
+
+.rodapePrincipal .aviso h1{
+    color: #F9F9F9;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media(max-width: 768px) {
+    .cabecalhoPrincipal .bannerTexto h1 {
+        width: 86%;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 34px;
+    }
+    
+    .cabecalhoPrincipal .bannerTexto h2 {
+        width: 86%;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    .corpoPrincipal .container {
+        margin: 50px 20px 50px;
+    }
+
+    .corpoPrincipal .container .destaquesTexto {
+        height: 100px;
+    }
+    
+    .corpoPrincipal .container .destaquesTexto h1 {
+        font-weight: 600;
+        font-size: 28px;
+    }
+    
+    .corpoPrincipal .container .destaquesTexto h2 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 29px;
+    }
+}
